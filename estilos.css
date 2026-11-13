@@ -238,3 +238,11 @@ h1, h2, .bienvenida h2 { font-family: "Noto Serif", Georgia, "Times New Roman", 
   .cabecera .avatar { width: 38px; height: 38px; flex-basis: 38px; }
   .nuevo { white-space: nowrap; }
 }
+/* 13/11: a 390 px el contador pisaba «AI» del título */
+.marca { flex: 1 1 auto; }
+.acciones { flex: 0 0 auto; }
+@media (max-width: 430px) {
+  .marca-texto h1 { font-size: .95rem; overflow: hidden; text-overflow: ellipsis; }
+  .contador { max-width: 4.6rem; font-size: .66rem; }
+  .nuevo { padding: .4rem .65rem; font-size: .72rem; }
+}
